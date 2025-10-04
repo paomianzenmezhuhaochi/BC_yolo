@@ -1,0 +1,15 @@
+# Medical mammogram augmentation settings
+
+# 几何增强
+degrees: 5.0       # 轻微旋转 ±5°
+translate: 0.05    # 平移 5%
+scale: 0.1         # 缩放范围 [0.9, 1.1]
+
+# 翻转增强
+flipud: 0.5        # 上下翻转
+fliplr: 0.0        # 不左右翻转
+
+# 组合增强
+mosaic: 0.0        # 禁止 Mosaic
+mixup: 0.05        # 少量 MixUp，缓解类别不平衡
+cutmix: 0.0        # 禁止 CutMix

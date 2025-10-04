@@ -1,0 +1,14 @@
+path: ../ISICDM2025_dataset    # 根目录（包含 images/ 和 labels/）
+train: images/train
+val: images/val
+test: images/test
+
+# 类别名称（category ids 对应 annotations 中的 id）
+names:
+  0: BI-RADS-0
+  1: BI-RADS-1
+  2: BI-RADS-2
+  3: BI-RADS-3
+  4: BI-RADS-4
+  5: BI-RADS-5
+  6: BI-RADS-6
