@@ -2,7 +2,7 @@
 import os
 import json
 from ultralytics import YOLO
-from slide_infer import SlideInfer
+from scripts.slide_infer import SlideInfer
 
 #TODO：改为调用yolo标准库预测，imgsize=1024
 def predict_test(model_path, test_images, save_json="predictions.json"):

@@ -6,7 +6,7 @@ from ensemble_boxes import weighted_boxes_fusion
 
 
 class SlideInfer:
-    def __init__(self, model, patch_size=1024, stride=800, conf_thres=0.1, iou_thres=0.6):
+    def __init__(self, model, patch_size=1024, stride=800, conf_thres=0.3, iou_thres=0.6):
         """
         滑窗推理类
         Args:
@@ -107,7 +107,9 @@ class SlideInfer:
                 results = self.model.predict(
                     patch,
                     imgsz=self.patch_size,
-                    conf=self.conf_thres,
+                    conf=0.1,
+                    iou=0.2,
+                    agnostic_nms=False,
                     verbose=False
                 )
 
