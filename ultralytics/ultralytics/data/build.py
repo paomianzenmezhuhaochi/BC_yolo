@@ -1,6 +1,5 @@
 # Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
 
-
 from __future__ import annotations
 
 import os
@@ -17,7 +16,6 @@ from torch.utils.data import dataloader, distributed
 
 from ultralytics.cfg import IterableSimpleNamespace
 from ultralytics.data.dataset import GroundingDataset, YOLODataset, YOLOMultiModalDataset
-from ultralytics.data.custom_dataset import YoloRandomCropDataset
 from ultralytics.data.loaders import (
     LOADERS,
     LoadImagesAndVideos,
@@ -130,63 +128,26 @@ def build_yolo_dataset(
     rect: bool = False,
     stride: int = 32,
     multi_modal: bool = False,
-    use_crop: bool = False,
 ):
     """Build and return a YOLO dataset based on configuration parameters."""
-
-    # 打印 use_crop 参数，方便调试
-    use_crop = getattr(cfg, "use_crop", False)
-    print(f"[build_yolo_dataset] use_crop={use_crop} | mode={mode}")
-
-    if use_crop and mode == "train":
-        import glob
-        import os
-
-        # 获取图像和标签文件
-        img_files = sorted(glob.glob(os.path.join(img_path, "*.*")))
-        # 过滤有效的图像格式
-        img_files = [f for f in img_files if f.lower().endswith(('.jpg', '.jpeg', '.png', '.bmp', '.tif', '.tiff'))]
-
-        label_files = []
-        for img_file in img_files:
-            # 根据您的数据集结构调整路径替换逻辑
-            label_file = img_file.replace("images", "labels").rsplit(".", 1)[0] + ".txt"
-            if not os.path.exists(label_file):
-                # 尝试其他可能的路径格式
-                label_file = img_file.replace("train", "labels").replace("val", "labels").rsplit(".", 1)[0] + ".txt"
-            label_files.append(label_file)
-
-        print(f"[build_yolo_dataset] Found {len(img_files)} images and {len(label_files)} labels")
-
-        # 检查实际存在的标签文件
-        existing_label_files = [f for f in label_files if os.path.exists(f)]
-        print(f"[build_yolo_dataset] {len(existing_label_files)} label files actually exist")
-
-        dataset = YoloRandomCropDataset(img_files, label_files, crop_size=cfg.imgsz)
-
-        # 设置collate_fn
-        dataset.collate_fn = YoloRandomCropDataset.collate_fn
-    else:
-        # 验证/测试集用原始YOLODataset，不带custom_collate_fn
-        dataset = YOLOMultiModalDataset if multi_modal else YOLODataset
-        dataset = dataset(
-            img_path=img_path,
-            imgsz=cfg.imgsz,
-            batch_size=batch,
-            augment=mode == "train",  # augmentation
-            hyp=cfg,
-            rect=cfg.rect or rect,
-            cache=cfg.cache or None,
-            single_cls=cfg.single_cls or False,
-            stride=stride,
-            pad=0.0 if mode == "train" else 0.5,
-            prefix=colorstr(f"{mode}: "),
-            task=cfg.task,
-            classes=cfg.classes,
-            data=data,
-            fraction=cfg.fraction if mode == "train" else 1.0,
-        )
-    return dataset
+    dataset = YOLOMultiModalDataset if multi_modal else YOLODataset
+    return dataset(
+        img_path=img_path,
+        imgsz=cfg.imgsz,
+        batch_size=batch,
+        augment=mode == "train",  # augmentation
+        hyp=cfg,  # TODO: probably add a get_hyps_from_cfg function
+        rect=cfg.rect or rect,  # rectangular batches
+        cache=cfg.cache or None,
+        single_cls=cfg.single_cls or False,
+        stride=stride,
+        pad=0.0 if mode == "train" else 0.5,
+        prefix=colorstr(f"{mode}: "),
+        task=cfg.task,
+        classes=cfg.classes,
+        data=data,
+        fraction=cfg.fraction if mode == "train" else 1.0,
+    )
 
 
 def build_grounding(

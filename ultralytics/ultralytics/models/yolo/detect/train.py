@@ -94,17 +94,7 @@ class DetectionTrainer(BaseTrainer):
         """
         assert mode in {"train", "val"}, f"Mode must be 'train' or 'val', not {mode}."
         with torch_distributed_zero_first(rank):  # init dataset *.cache only once if DDP
-            use_crop = (mode == "train")
-            dataset = build_yolo_dataset(
-                self.args,
-                dataset_path,
-                batch_size,
-                self.data,
-                mode=mode,
-                rect=mode == "val",
-                stride=max(int(unwrap_model(self.model).stride.max() if self.model else 0), 32),
-                use_crop=use_crop,  #  传给 build.py
-            )
+            dataset = self.build_dataset(dataset_path, mode, batch_size)
         shuffle = mode == "train"
         if getattr(dataset, "rect", False) and shuffle:
             LOGGER.warning("'rect=True' is incompatible with DataLoader shuffle, setting shuffle=False")
