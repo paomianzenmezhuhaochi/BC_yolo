@@ -26,7 +26,6 @@ model.train(
     project="runs",
     name="baseline",
     exist_ok=True,
-    hyp="configs/baseline_hyp.yaml",
     optimizer="Adam",   # 使用 Adam 优化器
     seed=42,            # 固定随机种子
     freeze=10,          # 冻结前 10 层 backbone
