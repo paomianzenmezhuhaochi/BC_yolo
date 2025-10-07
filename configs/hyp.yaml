@@ -1,6 +1,6 @@
 #configs/hyp.yaml
 # Focal Loss 用于类别不均衡
-loss: focal           # 使用 focal loss
+#loss: focal           # 使用 focal loss
 #fl_gamma: 1.5   # 适度提升对小类的关注
 
 # --- Data augmentation ---
