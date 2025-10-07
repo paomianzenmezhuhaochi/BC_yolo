@@ -10,7 +10,7 @@ model.train(
     epochs=80,
     imgsz=1024,
     batch=4,
-    fl_gamma=1.5,
+    patience=20,
     hsv_v=0.2,
     degrees=5.0,
     scale=0.1,
