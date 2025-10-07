@@ -9,3 +9,7 @@ class FocalLossTrainer(BaseTrainer):
         return criterion
 
 model = YOLO("runs/detect/baseline/weights/last.pt")  # 加载第一阶段权重
+
+model.train(
+    cfg="configs/unfreeze.yaml", #TODO: 修改为你的模型配置文件
+)
