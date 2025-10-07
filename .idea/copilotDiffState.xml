@@ -3,6 +3,15 @@
   <component name="CopilotDiffPersistence">
     <option name="pendingDiffs">
       <map>
+        <entry key="$PROJECT_DIR$/configs/hyp.yaml">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/configs/hyp.yaml" />
+              <option name="originalContent" value="#configs/hyp.yaml&#10;# Focal Loss 用于类别不均衡&#10;loss: focal           # 使用 focal loss&#10;#fl_gamma: 1.5   # 适度提升对小类的关注&#10;&#10;# --- Data augmentation ---&#10;hsv_v: 0.2               # 亮度增强&#10;degrees: 5.0&#10;scale: 0.1&#10;shear: 0.0&#10;translate: 0.0&#10;perspective: 0.0&#10;&#10;flipud: 0.5           # 50% 概率上下翻转&#10;fliplr: 0.0           # 禁用左右翻转&#10;&#10;mosaic: 0.0&#10;mixup: 0.10           # 混合增强（模拟白斑噪声）&#10;copy_paste: 0.15      # 模拟随机亮块伪影&#10;erasing: 0.1          # 20% 概率随机擦除小块(伪影效果)&#10;&#10;# --- Training ---&#10;data: configs/dataset.yaml&#10;epochs: 40&#10;imgsz: 1024&#10;batch: 4&#10;patience: 5&#10;exist_ok: True&#10;optimizer: &quot;AdamW&quot;   # 使用 AdamW 优化器&#10;seed: 42            # 固定随机种子&#10;freeze: 10          # 冻结前 10 层 backbone&#10;plots: True          # 自动绘制训练曲线&#10;project: runs        # 输出目录&#10;name: hypT           # 实验名称" />
+              <option name="updatedContent" value="#configs/hyp.yaml&#10;# Focal Loss 用于类别不均衡&#10;loss: focal           # 使用 focal loss&#10;#fl_gamma: 1.5   # 适度提升对小类的关注&#10;&#10;# --- Data augmentation ---&#10;hsv_v: 0.2               # 亮度增强&#10;degrees: 5.0&#10;scale: 0.1&#10;shear: 0.0&#10;translate: 0.0&#10;perspective: 0.0&#10;&#10;flipud: 0.5           # 50% 概率上下翻转&#10;fliplr: 0.0           # 禁用左右翻转&#10;&#10;mosaic: 0.0&#10;mixup: 0.10           # 混合增强（模拟白斑噪声）&#10;copy_paste: 0.15      # 模拟随机亮块伪影&#10;erasing: 0.1          # 20% 概率随机擦除小块(伪影效果)&#10;&#10;# --- Training ---&#10;data: configs/dataset.yaml&#10;epochs: 40&#10;imgsz: 1024&#10;batch: 4&#10;patience: 5&#10;exist_ok: True&#10;optimizer: &quot;AdamW&quot;   # 使用 AdamW 优化器&#10;seed: 42            # 固定随机种子&#10;freeze: 10          # 冻结前 10 层 backbone&#10;plots: True          # 自动绘制训练曲线&#10;project: runs        # 输出目录&#10;name: hypT           # 实验名称" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/data_process/file_count.py">
           <value>
             <PendingDiffInfo>

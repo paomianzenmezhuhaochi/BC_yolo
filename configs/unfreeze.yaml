@@ -1,0 +1,30 @@
+#configs/unfreeze.yaml
+# 解冻全部层
+# --- Data augmentation ---
+hsv_v: 0.2               # 亮度增强
+degrees: 5.0
+scale: 0.1
+shear: 0.0
+translate: 0.0
+perspective: 0.0
+flipud: 0.5           # 50% 概率上下翻转
+fliplr: 0.0           # 禁用左右翻转
+mosaic: 0.0
+mixup: 0.10           # 混合增强
+copy_paste: 0.15      # 随机亮块伪影
+erasing: 0.1          # 随机擦除小块
+
+# --- Training ---
+data: configs/dataset.yaml
+epochs: 80
+imgsz: 1024
+batch: 4
+patience: 8
+exist_ok: True
+optimizer: "AdamW"   # 使用 AdamW 优化器
+seed: 42            # 固定随机种子
+
+plots: True          # 自动绘制训练曲线
+project: runs        # 输出目录
+name: UF          # 实验名称
+

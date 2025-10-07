@@ -157,7 +157,7 @@ Pretrained weights are automatically downloaded from the [latest YOLOv5 release]
 
 ```bash
 # Example: Train YOLOv5s on the COCO128 dataset for 3 epochs
-python train_baseline.py --img 640 --batch 16 --epochs 3 --data coco128.yaml --weights yolov5s.pt
+python train.py --img 640 --batch 16 --epochs 3 --data coco128.yaml --weights yolov5s.pt
 ```
 
 !!! tip "Optimize Training Speed"
@@ -183,7 +183,7 @@ Getting started is straightforward:
 ```bash
 pip install comet_ml                                                          # 1. Install Comet library
 export COMET_API_KEY=YOUR_API_KEY_HERE                                        # 2. Set your Comet API key (create a free account at Comet.ml)
-python train_baseline.py --img 640 --epochs 3 --data coco128.yaml --weights yolov5s.pt # 3. Train your model - Comet automatically logs everything!
+python train.py --img 640 --epochs 3 --data coco128.yaml --weights yolov5s.pt # 3. Train your model - Comet automatically logs everything!
 ```
 
 Dive deeper into the supported features in our [Comet Integration Guide](https://docs.ultralytics.com/integrations/comet/). Learn more about Comet's capabilities from their official [documentation](https://bit.ly/yolov5-colab-comet-docs). Try the Comet Colab Notebook for a live demo: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1RG0WOQyxlDlo5Km8GogJpIEJlg_5lyYO?usp=sharing)
@@ -274,7 +274,7 @@ Training YOLOv5 on a custom dataset involves several key steps:
 3.  **Create Dataset Configuration**: Define dataset paths, number of classes, and class names in a `dataset.yaml` file.
 4.  **Start Training**: Execute the `train.py` script, providing paths to your `dataset.yaml`, desired pretrained weights (e.g., `yolov5s.pt`), image size, batch size, and the number of epochs.
     ```bash
-    python train_baseline.py --img 640 --batch 16 --epochs 100 --data path/to/your/dataset.yaml --weights yolov5s.pt
+    python train.py --img 640 --batch 16 --epochs 100 --data path/to/your/dataset.yaml --weights yolov5s.pt
     ```
 
 ### Why should I use Ultralytics HUB for training my YOLO models?

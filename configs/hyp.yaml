@@ -1,12 +1,13 @@
-#configs/baseline_hyp.yaml
+#configs/hyp.yaml
 # Focal Loss 用于类别不均衡
+loss: focal           # 使用 focal loss
 #fl_gamma: 1.5   # 适度提升对小类的关注
 
 # --- Data augmentation ---
 hsv_v: 0.2               # 亮度增强
 degrees: 5.0
 scale: 0.1
-sheer: 0.0
+shear: 0.0
 translate: 0.0
 perspective: 0.0
 
@@ -17,3 +18,17 @@ mosaic: 0.0
 mixup: 0.10           # 混合增强（模拟白斑噪声）
 copy_paste: 0.15      # 模拟随机亮块伪影
 erasing: 0.1          # 20% 概率随机擦除小块(伪影效果)
+
+# --- Training ---
+data: configs/dataset.yaml
+epochs: 40
+imgsz: 1024
+batch: 4
+patience: 5
+exist_ok: True
+optimizer: "AdamW"   # 使用 AdamW 优化器
+seed: 42            # 固定随机种子
+freeze: 10          # 冻结前 10 层 backbone
+plots: True          # 自动绘制训练曲线
+project: runs        # 输出目录
+name: hypT           # 实验名称
