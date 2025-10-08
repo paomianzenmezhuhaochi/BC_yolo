@@ -1,0 +1,981 @@
+[
+    {
+        "image_id": "ISICDM2025_test_005.png",
+        "category_id": 0,
+        "bbox": [
+            140.0,
+            1589.0,
+            904.0,
+            731.0
+        ],
+        "score": 0.0930498018860817
+    },
+    {
+        "image_id": "ISICDM2025_test_005.png",
+        "category_id": 0,
+        "bbox": [
+            624.0,
+            2283.0,
+            849.0,
+            676.0
+        ],
+        "score": 0.19209407269954681
+    },
+    {
+        "image_id": "ISICDM2025_test_005.png",
+        "category_id": 0,
+        "bbox": [
+            750.0,
+            817.0,
+            557.0,
+            492.0
+        ],
+        "score": 0.08253218233585358
+    },
+    {
+        "image_id": "ISICDM2025_test_001.png",
+        "category_id": 0,
+        "bbox": [
+            554.0,
+            567.0,
+            965.0,
+            956.0
+        ],
+        "score": 0.4327210783958435
+    },
+    {
+        "image_id": "ISICDM2025_test_001.png",
+        "category_id": 0,
+        "bbox": [
+            836.0,
+            2208.0,
+            620.0,
+            523.0
+        ],
+        "score": 0.11778096109628677
+    },
+    {
+        "image_id": "ISICDM2025_test_009.png",
+        "category_id": 0,
+        "bbox": [
+            1109.0,
+            1293.0,
+            439.0,
+            441.0
+        ],
+        "score": 0.23961997032165527
+    },
+    {
+        "image_id": "ISICDM2025_test_009.png",
+        "category_id": 0,
+        "bbox": [
+            869.0,
+            1798.0,
+            536.0,
+            432.0
+        ],
+        "score": 0.0902092382311821
+    },
+    {
+        "image_id": "ISICDM2025_test_015.png",
+        "category_id": 0,
+        "bbox": [
+            285.0,
+            229.0,
+            498.0,
+            471.0
+        ],
+        "score": 0.10377120226621628
+    },
+    {
+        "image_id": "ISICDM2025_test_023.png",
+        "category_id": 0,
+        "bbox": [
+            336.0,
+            938.0,
+            616.0,
+            585.0
+        ],
+        "score": 0.12305499613285065
+    },
+    {
+        "image_id": "ISICDM2025_test_014.png",
+        "category_id": 0,
+        "bbox": [
+            278.0,
+            804.0,
+            432.0,
+            483.0
+        ],
+        "score": 0.1518782526254654
+    },
+    {
+        "image_id": "ISICDM2025_test_007.png",
+        "category_id": 0,
+        "bbox": [
+            20.0,
+            2561.0,
+            1063.0,
+            1023.0
+        ],
+        "score": 0.0870090126991272
+    },
+    {
+        "image_id": "ISICDM2025_test_007.png",
+        "category_id": 0,
+        "bbox": [
+            54.0,
+            1567.0,
+            1016.0,
+            962.0
+        ],
+        "score": 0.08799400180578232
+    },
+    {
+        "image_id": "ISICDM2025_test_007.png",
+        "category_id": 0,
+        "bbox": [
+            0.0,
+            847.0,
+            454.0,
+            473.0
+        ],
+        "score": 0.1071576327085495
+    },
+    {
+        "image_id": "ISICDM2025_test_010.png",
+        "category_id": 0,
+        "bbox": [
+            0.0,
+            1536.0,
+            534.0,
+            1024.0
+        ],
+        "score": 0.09412428736686707
+    },
+    {
+        "image_id": "ISICDM2025_test_004.png",
+        "category_id": 0,
+        "bbox": [
+            420.0,
+            2266.0,
+            518.0,
+            503.0
+        ],
+        "score": 0.11773604154586792
+    },
+    {
+        "image_id": "ISICDM2025_test_030.png",
+        "category_id": 0,
+        "bbox": [
+            30.0,
+            987.0,
+            716.0,
+            663.0
+        ],
+        "score": 0.11029031127691269
+    },
+    {
+        "image_id": "ISICDM2025_test_028.png",
+        "category_id": 0,
+        "bbox": [
+            9.0,
+            1707.0,
+            936.0,
+            954.0
+        ],
+        "score": 0.08542627841234207
+    },
+    {
+        "image_id": "ISICDM2025_test_020.png",
+        "category_id": 0,
+        "bbox": [
+            177.0,
+            741.0,
+            693.0,
+            710.0
+        ],
+        "score": 0.1559707671403885
+    },
+    {
+        "image_id": "ISICDM2025_test_002.png",
+        "category_id": 0,
+        "bbox": [
+            74.0,
+            137.0,
+            806.0,
+            841.0
+        ],
+        "score": 0.09440837800502777
+    },
+    {
+        "image_id": "ISICDM2025_test_034.png",
+        "category_id": 0,
+        "bbox": [
+            2.0,
+            1109.0,
+            1004.0,
+            1091.0
+        ],
+        "score": 0.2976323962211609
+    },
+    {
+        "image_id": "ISICDM2025_test_033.png",
+        "category_id": 0,
+        "bbox": [
+            294.0,
+            1702.0,
+            501.0,
+            380.0
+        ],
+        "score": 0.09284255653619766
+    },
+    {
+        "image_id": "ISICDM2025_test_042.png",
+        "category_id": 0,
+        "bbox": [
+            110.0,
+            1850.0,
+            838.0,
+            778.0
+        ],
+        "score": 0.09869901090860367
+    },
+    {
+        "image_id": "ISICDM2025_test_011.png",
+        "category_id": 0,
+        "bbox": [
+            474.0,
+            3067.0,
+            319.0,
+            273.0
+        ],
+        "score": 0.11835189163684845
+    },
+    {
+        "image_id": "ISICDM2025_test_026.png",
+        "category_id": 0,
+        "bbox": [
+            1238.0,
+            2276.0,
+            588.0,
+            593.0
+        ],
+        "score": 0.18894526362419128
+    },
+    {
+        "image_id": "ISICDM2025_test_037.png",
+        "category_id": 0,
+        "bbox": [
+            644.0,
+            2243.0,
+            604.0,
+            564.0
+        ],
+        "score": 0.0893809124827385
+    },
+    {
+        "image_id": "ISICDM2025_test_043.png",
+        "category_id": 0,
+        "bbox": [
+            594.0,
+            1600.0,
+            916.0,
+            939.0
+        ],
+        "score": 0.08545482158660889
+    },
+    {
+        "image_id": "ISICDM2025_test_052.png",
+        "category_id": 0,
+        "bbox": [
+            262.0,
+            1512.0,
+            647.0,
+            624.0
+        ],
+        "score": 0.10151252895593643
+    },
+    {
+        "image_id": "ISICDM2025_test_046.png",
+        "category_id": 0,
+        "bbox": [
+            29.0,
+            2086.0,
+            1050.0,
+            956.0
+        ],
+        "score": 0.34511885046958923
+    },
+    {
+        "image_id": "ISICDM2025_test_046.png",
+        "category_id": 0,
+        "bbox": [
+            1.0,
+            590.0,
+            1062.0,
+            946.0
+        ],
+        "score": 0.08194347470998764
+    },
+    {
+        "image_id": "ISICDM2025_test_058.png",
+        "category_id": 0,
+        "bbox": [
+            0.0,
+            525.0,
+            1109.0,
+            1004.0
+        ],
+        "score": 0.5899143218994141
+    },
+    {
+        "image_id": "ISICDM2025_test_074.png",
+        "category_id": 0,
+        "bbox": [
+            0.0,
+            0.0,
+            1044.0,
+            1020.0
+        ],
+        "score": 0.12591494619846344
+    },
+    {
+        "image_id": "ISICDM2025_test_074.png",
+        "category_id": 0,
+        "bbox": [
+            13.0,
+            1542.0,
+            1064.0,
+            890.0
+        ],
+        "score": 0.08277948945760727
+    },
+    {
+        "image_id": "ISICDM2025_test_068.png",
+        "category_id": 0,
+        "bbox": [
+            157.0,
+            1782.0,
+            762.0,
+            662.0
+        ],
+        "score": 0.11873725056648254
+    },
+    {
+        "image_id": "ISICDM2025_test_072.png",
+        "category_id": 0,
+        "bbox": [
+            171.0,
+            347.0,
+            253.0,
+            271.0
+        ],
+        "score": 0.20939837396144867
+    },
+    {
+        "image_id": "ISICDM2025_test_072.png",
+        "category_id": 0,
+        "bbox": [
+            44.0,
+            1155.0,
+            830.0,
+            1008.0
+        ],
+        "score": 0.16567844152450562
+    },
+    {
+        "image_id": "ISICDM2025_test_029.png",
+        "category_id": 0,
+        "bbox": [
+            217.0,
+            1523.0,
+            535.0,
+            515.0
+        ],
+        "score": 0.08131685107946396
+    },
+    {
+        "image_id": "ISICDM2025_test_041.png",
+        "category_id": 0,
+        "bbox": [
+            128.0,
+            2215.0,
+            858.0,
+            715.0
+        ],
+        "score": 0.1035262942314148
+    },
+    {
+        "image_id": "ISICDM2025_test_089.png",
+        "category_id": 0,
+        "bbox": [
+            203.0,
+            1212.0,
+            598.0,
+            567.0
+        ],
+        "score": 0.4441622495651245
+    },
+    {
+        "image_id": "ISICDM2025_test_013.png",
+        "category_id": 0,
+        "bbox": [
+            268.0,
+            1341.0,
+            530.0,
+            448.0
+        ],
+        "score": 0.3935793936252594
+    },
+    {
+        "image_id": "ISICDM2025_test_013.png",
+        "category_id": 0,
+        "bbox": [
+            830.0,
+            761.0,
+            637.0,
+            564.0
+        ],
+        "score": 0.0979374349117279
+    },
+    {
+        "image_id": "ISICDM2025_test_092.png",
+        "category_id": 0,
+        "bbox": [
+            268.0,
+            1155.0,
+            668.0,
+            791.0
+        ],
+        "score": 0.21863238513469696
+    },
+    {
+        "image_id": "ISICDM2025_test_091.png",
+        "category_id": 0,
+        "bbox": [
+            328.0,
+            990.0,
+            627.0,
+            596.0
+        ],
+        "score": 0.13795064389705658
+    },
+    {
+        "image_id": "ISICDM2025_test_093.png",
+        "category_id": 0,
+        "bbox": [
+            162.0,
+            1870.0,
+            505.0,
+            539.0
+        ],
+        "score": 0.09041490405797958
+    },
+    {
+        "image_id": "ISICDM2025_test_016.png",
+        "category_id": 0,
+        "bbox": [
+            801.0,
+            1735.0,
+            566.0,
+            494.0
+        ],
+        "score": 0.23072166740894318
+    },
+    {
+        "image_id": "ISICDM2025_test_016.png",
+        "category_id": 0,
+        "bbox": [
+            716.0,
+            1257.0,
+            669.0,
+            552.0
+        ],
+        "score": 0.0903400331735611
+    },
+    {
+        "image_id": "ISICDM2025_test_094.png",
+        "category_id": 0,
+        "bbox": [
+            188.0,
+            422.0,
+            402.0,
+            447.0
+        ],
+        "score": 0.22270748019218445
+    },
+    {
+        "image_id": "ISICDM2025_test_099.png",
+        "category_id": 0,
+        "bbox": [
+            177.0,
+            1736.0,
+            812.0,
+            763.0
+        ],
+        "score": 0.09829224646091461
+    },
+    {
+        "image_id": "ISICDM2025_test_012.png",
+        "category_id": 0,
+        "bbox": [
+            1034.0,
+            1664.0,
+            960.0,
+            1109.0
+        ],
+        "score": 0.26681849360466003
+    },
+    {
+        "image_id": "ISICDM2025_test_012.png",
+        "category_id": 0,
+        "bbox": [
+            4.0,
+            2310.0,
+            989.0,
+            883.0
+        ],
+        "score": 0.1344040185213089
+    },
+    {
+        "image_id": "ISICDM2025_test_031.png",
+        "category_id": 0,
+        "bbox": [
+            335.0,
+            1240.0,
+            508.0,
+            440.0
+        ],
+        "score": 0.21545292437076569
+    },
+    {
+        "image_id": "ISICDM2025_test_027.png",
+        "category_id": 0,
+        "bbox": [
+            904.0,
+            1796.0,
+            468.0,
+            418.0
+        ],
+        "score": 0.5467279553413391
+    },
+    {
+        "image_id": "ISICDM2025_test_027.png",
+        "category_id": 0,
+        "bbox": [
+            18.0,
+            519.0,
+            1051.0,
+            990.0
+        ],
+        "score": 0.20958735048770905
+    },
+    {
+        "image_id": "ISICDM2025_test_027.png",
+        "category_id": 0,
+        "bbox": [
+            1909.0,
+            1439.0,
+            281.0,
+            262.0
+        ],
+        "score": 0.14596855640411377
+    },
+    {
+        "image_id": "ISICDM2025_test_039.png",
+        "category_id": 0,
+        "bbox": [
+            515.0,
+            0.0,
+            1001.0,
+            1090.0
+        ],
+        "score": 0.17039218544960022
+    },
+    {
+        "image_id": "ISICDM2025_test_039.png",
+        "category_id": 0,
+        "bbox": [
+            1038.0,
+            1265.0,
+            460.0,
+            520.0
+        ],
+        "score": 0.10947415977716446
+    },
+    {
+        "image_id": "ISICDM2025_test_032.png",
+        "category_id": 0,
+        "bbox": [
+            421.0,
+            696.0,
+            430.0,
+            358.0
+        ],
+        "score": 0.3691190779209137
+    },
+    {
+        "image_id": "ISICDM2025_test_032.png",
+        "category_id": 0,
+        "bbox": [
+            269.0,
+            2290.0,
+            467.0,
+            407.0
+        ],
+        "score": 0.09341784566640854
+    },
+    {
+        "image_id": "ISICDM2025_test_040.png",
+        "category_id": 0,
+        "bbox": [
+            10.0,
+            551.0,
+            1043.0,
+            808.0
+        ],
+        "score": 0.09666468948125839
+    },
+    {
+        "image_id": "ISICDM2025_test_040.png",
+        "category_id": 0,
+        "bbox": [
+            1232.0,
+            1284.0,
+            652.0,
+            635.0
+        ],
+        "score": 0.11904894560575485
+    },
+    {
+        "image_id": "ISICDM2025_test_054.png",
+        "category_id": 0,
+        "bbox": [
+            297.0,
+            1867.0,
+            408.0,
+            319.0
+        ],
+        "score": 0.2488895207643509
+    },
+    {
+        "image_id": "ISICDM2025_test_054.png",
+        "category_id": 0,
+        "bbox": [
+            82.0,
+            1271.0,
+            855.0,
+            695.0
+        ],
+        "score": 0.10557933896780014
+    },
+    {
+        "image_id": "ISICDM2025_test_048.png",
+        "category_id": 0,
+        "bbox": [
+            11.0,
+            2562.0,
+            1059.0,
+            993.0
+        ],
+        "score": 0.10707663744688034
+    },
+    {
+        "image_id": "ISICDM2025_test_048.png",
+        "category_id": 0,
+        "bbox": [
+            1393.0,
+            1356.0,
+            599.0,
+            519.0
+        ],
+        "score": 0.08748728781938553
+    },
+    {
+        "image_id": "ISICDM2025_test_048.png",
+        "category_id": 0,
+        "bbox": [
+            1959.0,
+            1847.0,
+            472.0,
+            445.0
+        ],
+        "score": 0.13022944331169128
+    },
+    {
+        "image_id": "ISICDM2025_test_051.png",
+        "category_id": 0,
+        "bbox": [
+            98.0,
+            2223.0,
+            924.0,
+            814.0
+        ],
+        "score": 0.3450276553630829
+    },
+    {
+        "image_id": "ISICDM2025_test_056.png",
+        "category_id": 0,
+        "bbox": [
+            46.0,
+            684.0,
+            1020.0,
+            789.0
+        ],
+        "score": 0.12143655866384506
+    },
+    {
+        "image_id": "ISICDM2025_test_056.png",
+        "category_id": 0,
+        "bbox": [
+            292.0,
+            2220.0,
+            615.0,
+            511.0
+        ],
+        "score": 0.13919810950756073
+    },
+    {
+        "image_id": "ISICDM2025_test_062.png",
+        "category_id": 0,
+        "bbox": [
+            562.0,
+            1039.0,
+            1074.0,
+            1009.0
+        ],
+        "score": 0.1527569591999054
+    },
+    {
+        "image_id": "ISICDM2025_test_062.png",
+        "category_id": 0,
+        "bbox": [
+            26.0,
+            2160.0,
+            1062.0,
+            867.0
+        ],
+        "score": 0.09198163449764252
+    },
+    {
+        "image_id": "ISICDM2025_test_062.png",
+        "category_id": 0,
+        "bbox": [
+            820.0,
+            1903.0,
+            476.0,
+            422.0
+        ],
+        "score": 0.08009859919548035
+    },
+    {
+        "image_id": "ISICDM2025_test_055.png",
+        "category_id": 0,
+        "bbox": [
+            1417.0,
+            2291.0,
+            596.0,
+            557.0
+        ],
+        "score": 0.08910852670669556
+    },
+    {
+        "image_id": "ISICDM2025_test_085.png",
+        "category_id": 0,
+        "bbox": [
+            0.0,
+            10.0,
+            1129.0,
+            1214.0
+        ],
+        "score": 0.3510494530200958
+    },
+    {
+        "image_id": "ISICDM2025_test_085.png",
+        "category_id": 0,
+        "bbox": [
+            9.0,
+            1246.0,
+            1137.0,
+            1160.0
+        ],
+        "score": 0.1671137809753418
+    },
+    {
+        "image_id": "ISICDM2025_test_063.png",
+        "category_id": 0,
+        "bbox": [
+            887.0,
+            1768.0,
+            623.0,
+            534.0
+        ],
+        "score": 0.12857727706432343
+    },
+    {
+        "image_id": "ISICDM2025_test_078.png",
+        "category_id": 0,
+        "bbox": [
+            730.0,
+            1205.0,
+            602.0,
+            688.0
+        ],
+        "score": 0.35623839497566223
+    },
+    {
+        "image_id": "ISICDM2025_test_078.png",
+        "category_id": 0,
+        "bbox": [
+            13.0,
+            81.0,
+            966.0,
+            1020.0
+        ],
+        "score": 0.08200101554393768
+    },
+    {
+        "image_id": "ISICDM2025_test_078.png",
+        "category_id": 0,
+        "bbox": [
+            428.0,
+            856.0,
+            396.0,
+            447.0
+        ],
+        "score": 0.19693054258823395
+    },
+    {
+        "image_id": "ISICDM2025_test_059.png",
+        "category_id": 0,
+        "bbox": [
+            793.0,
+            757.0,
+            664.0,
+            639.0
+        ],
+        "score": 0.28516775369644165
+    },
+    {
+        "image_id": "ISICDM2025_test_083.png",
+        "category_id": 0,
+        "bbox": [
+            4.0,
+            28.0,
+            1028.0,
+            993.0
+        ],
+        "score": 0.08245224505662918
+    },
+    {
+        "image_id": "ISICDM2025_test_083.png",
+        "category_id": 0,
+        "bbox": [
+            1015.0,
+            2429.0,
+            345.0,
+            294.0
+        ],
+        "score": 0.10451552271842957
+    },
+    {
+        "image_id": "ISICDM2025_test_086.png",
+        "category_id": 0,
+        "bbox": [
+            13.0,
+            554.0,
+            997.0,
+            1093.0
+        ],
+        "score": 0.2679123282432556
+    },
+    {
+        "image_id": "ISICDM2025_test_086.png",
+        "category_id": 0,
+        "bbox": [
+            9.0,
+            2245.0,
+            994.0,
+            1055.0
+        ],
+        "score": 0.15788376331329346
+    },
+    {
+        "image_id": "ISICDM2025_test_075.png",
+        "category_id": 0,
+        "bbox": [
+            579.0,
+            1065.0,
+            1046.0,
+            845.0
+        ],
+        "score": 0.13407760858535767
+    },
+    {
+        "image_id": "ISICDM2025_test_075.png",
+        "category_id": 0,
+        "bbox": [
+            14.0,
+            45.0,
+            929.0,
+            924.0
+        ],
+        "score": 0.1071946918964386
+    },
+    {
+        "image_id": "ISICDM2025_test_098.png",
+        "category_id": 0,
+        "bbox": [
+            2388.0,
+            1907.0,
+            498.0,
+            534.0
+        ],
+        "score": 0.6520437002182007
+    },
+    {
+        "image_id": "ISICDM2025_test_084.png",
+        "category_id": 0,
+        "bbox": [
+            1124.0,
+            1258.0,
+            882.0,
+            745.0
+        ],
+        "score": 0.10350904613733292
+    },
+    {
+        "image_id": "ISICDM2025_test_084.png",
+        "category_id": 0,
+        "bbox": [
+            1710.0,
+            1735.0,
+            570.0,
+            669.0
+        ],
+        "score": 0.15734942257404327
+    },
+    {
+        "image_id": "ISICDM2025_test_100.png",
+        "category_id": 0,
+        "bbox": [
+            64.0,
+            631.0,
+            901.0,
+            1007.0
+        ],
+        "score": 0.09019581228494644
+    },
+    {
+        "image_id": "ISICDM2025_test_100.png",
+        "category_id": 0,
+        "bbox": [
+            921.0,
+            1440.0,
+            423.0,
+            442.0
+        ],
+        "score": 0.13461630046367645
+    }
+]
