@@ -8,6 +8,7 @@ import matplotlib.pyplot as plt
 from typing import List, Tuple
 
 # ======== 参数配置 ========
+#自行调整路径处理训练、验证集
 SOURCE_IMG_DIR = "../ISICDM2025_dataset/images/train"
 SOURCE_LABEL_DIR = "../ISICDM2025_dataset/labels/train"
 SAVE_IMG_DIR = "../crop_datasets/images/train"
@@ -18,6 +19,8 @@ CROP_SIZE = 1024
 PAD_VALUE = 144  # 灰色填充
 NUM_DEBUG = 8
 SHOW_CROP = True  # 若为 True，随机抽取 NUM_DEBUG 张生成一张拼图(showCrop.jpg)
+RANDOM_OFFSET = True  # 是否在锚点基础上添加随机偏移
+OFFSET_RATIO = 0.5   # 随机偏移相对于 (CROP_SIZE/2) 的比例，0.25 表示最大偏移=窗口半边长的比例
 
 # ========== 工具函数 ==========
 
@@ -136,6 +139,18 @@ def process_one(img_path: str, label_path: str, save_img_filename: str):
         else:
             anchor_cx_px = w / 2
             anchor_cy_px = h / 2
+
+    # ---- 添加随机偏移 ----
+    if RANDOM_OFFSET:
+        # 最大理论偏移不超过窗口半边长，确保锚点仍留在裁剪窗口内（避免完全丢失主要目标）
+        max_shift_x = (CROP_SIZE / 2 - 1) * OFFSET_RATIO
+        max_shift_y = (CROP_SIZE / 2 - 1) * OFFSET_RATIO
+        dx = random.uniform(-max_shift_x, max_shift_x)
+        dy = random.uniform(-max_shift_y, max_shift_y)
+        anchor_cx_px += dx
+        anchor_cy_px += dy
+        # （可选）如果想限制偏移后中心仍尽量落在原图边界内，可再做 clamp，这里允许越界以触发 padding。
+    # ----------------------
 
     # 计算裁剪窗口左上角
     crop_left = int(round(anchor_cx_px - CROP_SIZE / 2))

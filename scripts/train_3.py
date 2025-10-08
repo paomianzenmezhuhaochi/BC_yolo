@@ -8,9 +8,9 @@ class FocalLossTrainer(DetectionTrainer):
         criterion.bce = FocalLoss(gamma=2.0, alpha=0.75)  # 可调参数
         return criterion
 
-model = YOLO("runs/detect/baseline/weights/last.pt")  # TODO:加载上一阶段权重
+model = YOLO("runs/stage2/weights/best.pt")  # TODO:加载上一阶段权重
 
 model.train(
     trainer=FocalLossTrainer,
-    cfg="configs/unfreeze.yaml", #TODO: 修改为你的模型配置文件
+    cfg="configs/fine_t.yaml" #TODO: 修改为你的模型配置文件
 )

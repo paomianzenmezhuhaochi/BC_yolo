@@ -11,6 +11,7 @@ model.train(
     epochs=50,
     batch=4,
     imgsz=1024,
+    patience=10,
     project="runs",
     name="baseline",
     freeze=10,

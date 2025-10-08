@@ -19,7 +19,7 @@ from ultralytics import YOLO
 project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MODEL_PATH = os.path.join(project_root, "runs/baseline/weights/best.pt")
 IMAGES_DIR = os.path.join(project_root, "ISICDM2025_images_for_test")
-OUT_JSON = os.path.join(project_root, "predict_test_hyp.json")
+OUT_JSON = os.path.join(project_root, "predict_test.json") #更改为你指定的输出目录
 IMGSZ = 1024
 CONF = 0.01
 IOU = 0.6

@@ -1,5 +1,5 @@
 #configs/dataset.yaml
-path: ../ISICDM2025_dataset    # 根目录（包含 images/ 和 labels/）
+path: ../crop_datasets    # 根目录（包含 images/ 和 labels/）
 train: images/train
 val: images/val
 test: images/test
