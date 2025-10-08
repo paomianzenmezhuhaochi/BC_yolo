@@ -1,0 +1,33 @@
+#configs/fine_t.yaml
+# --- Data augmentation ---
+hsv_v: 0.2               # 亮度增强
+degrees: 5.0
+scale: 0.06
+shear: 0.0
+translate: 0.0
+perspective: 0.0
+flipud: 0.0           # 禁止上下翻转
+fliplr: 0.0           # 禁用左右翻转
+mosaic: 0.0
+mixup: 0.0           # 混合增强
+copy_paste: 0.0      # 随机亮块伪影
+erasing: 0.01          # 随机擦除小块
+
+# --- Training ---
+data: configs/dataset.yaml
+epochs: 80
+imgsz: 1024
+batch: 4
+patience: 16
+exist_ok: True
+optimizer: "AdamW"   # 使用 AdamW 优化器
+lr0: 0.00005          # 初始学习率
+seed: 42            # 固定随机种子
+cls: 1.5             # 分类损失权重
+box: 10.0            # 盒子损失权重
+dfl: 1.0             # DFL 损失权重
+
+plots: True          # 自动绘制训练曲线
+project: runs        # 输出目录
+name: FT          # 实验名称
+
