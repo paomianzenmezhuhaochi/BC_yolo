@@ -5,7 +5,7 @@
 pip install -r requirements.txt
 ```
 ### 1.2、colab 运行更推荐 
- 见 [Colab Notebook](./train_colab.ipynb)
+ 见全训练与推理流程见 [Colab Notebook](./train_colab.ipynb)
 ## 2、项目结构介绍
 ```text
 BC_yolo/
@@ -22,7 +22,10 @@ BC_yolo/
 ├── showResult.py             # 可视化结果脚本
 ├── train_colab.ipynb         # Colab 训练流程 notebook
 ├── ultralytics/              # Ultralytics YOLO 源码或定制目录
-├── README.md                 # 项目说明文件
+├── croped_datasets/          # 裁剪清洗后的数据集
+       ├──images/
+       └──labels/
+└── README.md                 # 项目说明文件
 ```
 
 ### 主要文件和目录说明
