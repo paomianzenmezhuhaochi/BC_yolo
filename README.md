@@ -12,6 +12,7 @@ BC_yolo/
 ├── configs/                  # 模型配置文件
 ├── data_process/             # 数据处理相关脚本
 ├── ground_truth.json         # 测试集集真值文件
+├── testDataset/               # 测试集图片文件
 ├── predict_patch.py          # Patch-based 推理脚本
 ├── predict_test.py           # basic推理脚本
 ├── predict_test0.json        # 推理结果
