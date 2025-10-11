@@ -37,8 +37,8 @@ import matplotlib.pyplot as plt
 def parse_args():
     parser = argparse.ArgumentParser(description="批量检测结果可视化 (简化版, 仅支持列表 JSON)")
     parser.add_argument('--test_dir', type=str, default="ISICDM2025_images_for_test", help='包含待显示 PNG 图像的文件夹')
-    parser.add_argument('--json', type=str, default="predictions.json", help='标签 JSON 文件路径 (根为列表)')
-    parser.add_argument('--save_dir', type=str, default="debug/try", help='输出拼图目录')
+    parser.add_argument('--json', type=str, default="predictions3_2.json", help='标签 JSON 文件路径 (根为列表)')
+    parser.add_argument('--save_dir', type=str, default="debug/try0", help='输出拼图目录')
     parser.add_argument('--batch_size', type=int, default=5, help='每张拼图包含的图像数量')
     parser.add_argument('--fig_size', type=float, default=4.0, help='单图子图基准大小（英寸）')
     parser.add_argument('--max_cols', type=int, default=5, help='拼图最大列数')

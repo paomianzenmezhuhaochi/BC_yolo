@@ -1,4 +1,5 @@
-#data_process/crop_data.py
+img = cv2.imread(img_path, cv2.IMREAD_UNCHANGED)
+print(img.dtype)  # 如果是16位，应该显示为 uint16#data_process/crop_data.py
 import os
 import cv2
 import glob
@@ -108,7 +109,7 @@ def choose_anchor(labels):
 # 主处理单张图片
 
 def process_one(img_path: str, label_path: str, save_img_filename: str):
-    img = cv2.imread(img_path, cv2.IMREAD_COLOR)
+    img = cv2.imread(img_path, cv2.IMREAD_UNCHANGED)
     if img is None:
         print(f"无法读取图片: {img_path}")
         return False
